@@ -6,7 +6,10 @@
     <uses-sdk android:minSdkVersion="23"/>
     <uses-permission android:name="android.permission.CAMERA" />
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name=".BarcodeReader"
+        <activity android:name="ui.BarcodeReader"
+                  android:label="BarcodeReader">
+        </activity>
+        <activity android:name=".Main"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

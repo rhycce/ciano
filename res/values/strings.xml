@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Vangh</string>
     <string name="scan">Scan</string>
+    <string name="startscan">Start scan</string>
 </resources>
