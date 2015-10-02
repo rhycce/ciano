@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ (c) Copyright Selerity, Inc. 2009-2015. All rights reserved. This source code is confidential and proprietary information of Selerity Inc. and may be used only by a recipient designated by and for the purposes permitted by Selerity Inc. in writing.  Reproduction of, dissemination of, modifications to or creation of derivative works from this source code, whether in source or binary forms, by any means and in any form or manner, is expressly prohibited, except with the prior written permission of Selerity Inc..  THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. This notice may not be removed from the software by any user thereof.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button android:id="@+id/scan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/scan"/>
+    <TextView
+            android:id="@+id/scan_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textIsSelectable="true"
+            android:layout_below="@+id/scan_button"/>
+    <TextView
+            android:id="@+id/scan_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textIsSelectable="true"
+            android:layout_below="@+id/scan_format"/>
+</LinearLayout>
